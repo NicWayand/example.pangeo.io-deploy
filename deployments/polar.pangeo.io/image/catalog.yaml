@@ -13,10 +13,10 @@ sources:
         - forecast
     args:
       storage_options:
-        project: 'sipn2-pangeo'
+        project: 'polar-pangeo'
         token: anon
         access: read_only
-      urlpath: 'gcs://sipn-data-sic/sic.zarr'
+      urlpath: 'gcs://polar-sipn-sic/sic.zarr'
       
   SIPN2_SIT:
     description: Sea Ice Prediction Network Phase 2 (SIPN2) Sea ice thickness forecasts and IceBridge observations.
@@ -29,10 +29,10 @@ sources:
         - forecast
     args:
       storage_options:
-        project: 'sipn2-pangeo'
+        project: 'polar-pangeo'
         token: anon
         access: read_only
-      urlpath: 'gcs://sipn-data-hi/hi.zarr'
+      urlpath: 'gcs://polar-sipn-sit/hi.zarr'
       
   SIPN2_GRIDS:
     description: Sea Ice Prediction Network Phase 2 (SIPN2), useful Arctic grids.
